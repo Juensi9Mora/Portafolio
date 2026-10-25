@@ -3,7 +3,7 @@ const formulario = document.getElementById('formulario');
 const respuesta = document.getElementById('respuesta');
 
 formulario.addEventListener('submit', function (evento) {
-  // Evita que la página se recargue
+  // Evitar que la página se recargue
   evento.preventDefault();
 
   const nombre = document.getElementById('nombre').value;
